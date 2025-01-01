@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DealerWeb" parallel="tests" thread-count="50">
+
+	<test name="RUN ON CHROME BROWSER">
+		<classes>
+<!--			<class name="DemoQATest.element.TextBox"/>-->
+<!--			<class name="DemoQATest.element.E_02_CheckBox"/>-->
+<!--			<class name="DemoQATest.element.E_03_RadioButton"/>-->
+<!--			<class name="DemoQATest.element.E_04_WebTables"/>-->
+<!--			<class name="DemoQATest.element.E_05_Buttons"/>-->
+<!--			<class name="DemoQATest.element.E_06_Links"/>-->
+<!--			<class name="DemoQATest.element.E_07_BrokenLinksImages"/>-->
+			<class name="DemoQATest.element.E_08_UploadAndDownload"/>
+		</classes>
+	</test>
+
+</suite>
