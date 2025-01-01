@@ -11,7 +11,8 @@
 <!--			<class name="DemoQATest.element.E_05_Buttons"/>-->
 <!--			<class name="DemoQATest.element.E_06_Links"/>-->
 <!--			<class name="DemoQATest.element.E_07_BrokenLinksImages"/>-->
-			<class name="DemoQATest.element.E_08_UploadAndDownload"/>
+<!--			<class name="DemoQATest.element.E_08_UploadAndDownload"/>-->
+			<class name="DemoQATest.forms.PracticeForm"/>
 		</classes>
 	</test>
 

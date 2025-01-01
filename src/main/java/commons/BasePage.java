@@ -609,6 +609,17 @@ public class BasePage {
 		}
 	}
 
+	// For Keys object
+	public void pressKey(WebDriver driver, String locatorType, Keys key) {
+		WebElement element = getWebElement(driver, locatorType);
+		element.sendKeys(key);
+	}
+
+	// For String key
+	public void pressKey(WebDriver driver, String locatorType, String keyAsString) {
+		Keys key = Keys.valueOf(keyAsString.toUpperCase());
+		pressKey(driver, locatorType, key);
+	}
 
 
 }
