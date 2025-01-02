@@ -4,15 +4,20 @@
 
 	<test name="RUN ON CHROME BROWSER">
 		<classes>
-<!--			<class name="DemoQATest.element.TextBox"/>-->
-<!--			<class name="DemoQATest.element.E_02_CheckBox"/>-->
-<!--			<class name="DemoQATest.element.E_03_RadioButton"/>-->
-<!--			<class name="DemoQATest.element.E_04_WebTables"/>-->
-<!--			<class name="DemoQATest.element.E_05_Buttons"/>-->
-<!--			<class name="DemoQATest.element.E_06_Links"/>-->
-<!--			<class name="DemoQATest.element.E_07_BrokenLinksImages"/>-->
-<!--			<class name="DemoQATest.element.E_08_UploadAndDownload"/>-->
+			<class name="DemoQATest.element.E_01_TextBox"/>
+			<class name="DemoQATest.element.E_02_CheckBox"/>
+			<class name="DemoQATest.element.E_03_RadioButton"/>
+			<class name="DemoQATest.element.E_04_WebTables"/>
+			<class name="DemoQATest.element.E_05_Buttons"/>
+			<class name="DemoQATest.element.E_06_Links"/>
+			<class name="DemoQATest.element.E_07_BrokenLinksImages"/>
+			<class name="DemoQATest.element.E_08_UploadAndDownload"/>
 			<class name="DemoQATest.forms.PracticeForm"/>
+			<class name="DemoQATest.alertsFrameWindows.A_01_BrowserWindows"/>
+			<class name="DemoQATest.alertsFrameWindows.A_02_Alerts"/>
+			<class name="DemoQATest.alertsFrameWindows.A_03_Frames"/>
+			<class name="DemoQATest.alertsFrameWindows.A_04_NestedFrames"/>
+			<class name="DemoQATest.alertsFrameWindows.A_05_ModalDialogs"/>
 		</classes>
 	</test>
 
